@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3b82f6;
+  --color-bg-light: #f8fafc;
+  --color-bg-dark: #020617;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  background-color: var(--color-bg-light);
+  color: #0f172a;
+  transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s ease;
+}
+
+
+.dark {
+  background-color: var(--color-bg-dark);
+  color: #f1f5f9;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+* {
+  transition: border-color 0.3s ease;
+}
