@@ -46,7 +46,7 @@ Projeyi kendi bilgisayarında çalıştırmak için:
 git clone https://github.com/HasanEROL1/hasan-erol-portfolio.git
 
 # Klasöre gir
-cd PORTFOLYO-ADIN
+cd hasan-erol-portfolio
 
 # Bağımlılıkları yükle
 npm install
